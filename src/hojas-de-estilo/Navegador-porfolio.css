@@ -1,0 +1,25 @@
+.Navegador_porfolio {
+  margin: auto;
+  margin-top: 10px;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 15px;
+  position: sticky;
+  top: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.a_Navegador_porfolio {
+  color: black;
+  text-decoration: none;
+}
+
+.a_Navegador_porfolio:hover {
+  color: aqua;
+}

@@ -1,0 +1,13 @@
+.Proyectos {
+    margin-top: 100px;
+}
+
+.article_proyectos {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto_proyecto {
+    width: 300px;
+}

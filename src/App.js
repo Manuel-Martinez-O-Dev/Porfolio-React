@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Navegador_porfolio from './componentes/Navegador-porfolio.js';
+import Encabezado_porfolio from './componentes/Encabezado-porfolio.js';
+import Experiencia_laboral from './componentes/Experiencia-laboral.js';
+import Proyectos from './componentes/Proyectos.js';
+import Sobre_mi from './componentes/Sobre-mi.js';
+import Footer_porfolio from './componentes/Footer-porfoli.js';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Navegador_porfolio />
+      <Encabezado_porfolio />
+      <Experiencia_laboral />
+      <Proyectos />
+      <Sobre_mi />
+      <Footer_porfolio />
     </div>
   );
 }
